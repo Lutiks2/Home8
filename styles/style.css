@@ -45,11 +45,13 @@ a {
     background: #107997;
     color: #fff;
 }
+
 /*-----------header---------*/
 
 header {
     background: #edeff1;
 }
+
 .main-header {
     padding: 45px 25px;
     margin: 0 auto;
@@ -74,6 +76,7 @@ header {
     font: 18px 'Roboto Slab', serif;
     color: #31353e;
 }
+
 .main-nav a:hover {
     background: #dd4b2b;
     color: #edeff1;
@@ -102,11 +105,13 @@ header {
     font: 700 30px 'Roboto Slab', serif;
     padding-bottom: 55px;
 }
+
 .main-welcome ul {
     margin-top: 55px;
     padding-left: 0;
     padding-bottom: 80px;
 }
+
 .main-welcome li {
     width: 33.3%;
     float: left;
@@ -119,6 +124,7 @@ header {
 .welcome-list img {
     max-width: 148px;
 }
+
 .welcome-list h3 {
     font: 700 30px 'Roboto Slab', serif;
     color: #fff;
@@ -132,6 +138,7 @@ header {
     font: 300 15px 'Roboto', sans-serif;
     line-height: 2;
 }
+
 .button-welcome {
     font: 18px 'Roboto Slab', serif;
     color: #612316;
@@ -145,13 +152,16 @@ header {
     background: #edeff1;
     text-align: center;
 }
+
 .news h2 {
     color: #31353e;
 }
+
 .news ul {
     padding-right: 0;
     margin-top: 60px;
 }
+
 .news li {
     width: 33.3%;
     float: left;
@@ -164,6 +174,7 @@ header {
 .news h3 {
     font: 700 24px 'Roboto Slab', serif;
 }
+
 .news p {
     padding: 0 20px 40px;
     margin: 0;
@@ -175,11 +186,11 @@ header {
     font: 300 15px 'Roboto', sans-serif;
     color: #4e5159;
     line-height: 2;
- }
+}
 
 /*------------newsletter-----------*/
 
-    /*----newsletter-info----*/
+/*----newsletter-info----*/
 .newsletter-info {
     padding: 50px 0 100px;
     text-align: center;
@@ -191,6 +202,7 @@ header {
     max-width: 535px;
     margin: 0 auto;
     font: 300 15px 'Roboto', sans-serif;
+    line-height: 2;
 }
 
 .newsletter-info form {
@@ -199,8 +211,39 @@ header {
 
 .newsletter-info input {
     -moz-appearance: none;
+    -webkit-appearance: none;
+    appearence: none;
 }
-    /*--------product---------*/
+
+.email {
+    padding: 18px 100px 15px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    font: 18px 'Roboto Slab', serif;
+    color: #08276533;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+input::-moz-placeholder {
+    color: #f3f4f6;
+}
+
+input::-webkit-placeholder {
+    color: #f3f4f6;
+}
+
+input::placeholder {
+    color: #f3f4f6;
+}
+
+.submit {
+    border: none;
+    background: #fff;
+    margin-left: -55px;
+    color: #612316;
+}
+
+/*--------product---------*/
 
 .product {
     padding: 65px 25px 30px;
@@ -235,6 +278,7 @@ header {
     box-sizing: border-box;
     border: 1px solid #dbdbdb;
 }
+
 .odd .product-value {
     float: left;
 }
@@ -243,7 +287,7 @@ header {
     float: right;
 }
 
-.even .product-face{
+.even .product-face {
     float: left;
 }
 
@@ -288,6 +332,7 @@ header {
 .list-name a:hover {
     color: #22b4e4;
 }
+
 /*---------footer--------*/
 
 .footer-panakeia {
